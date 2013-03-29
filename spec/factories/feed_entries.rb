@@ -4,7 +4,7 @@ FactoryGirl.define do
   factory :feed_entry do
     name "MyString"
     summary "MyText"
-    url "MyString"
+    url "http://www.google.com"
     published_at "2013-03-29 13:08:52"
     guid "MyString"
   end
